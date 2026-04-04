@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BeanStore</title>
+
+    <!-- Красивый шрифт -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">BeanStore</div>
+    <nav>
+        <a href="#">Каталог</a>
+        <a href="#">Контакты</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>BeanStore</h1>
+        <p>Натуральный кофе на каждый день</p>
+        <button>В каталог</button>
+    </div>
+</section>
+
+<section class="main">
+
+    <aside class="filters">
+        <h2>Фильтры</h2>
+
+        <div class="filter-block">
+            <p class="filter-title">Цена</p>
+
+            <div class="range-slider">
+                <input type="range" min="500" max="2000" value="500" id="minRange">
+                <input type="range" min="500" max="2000" value="2000" id="maxRange">
+            </div>
+
+            <div class="price-values">
+                <span id="minPrice">500 ₽</span>
+                <span id="maxPrice">2000 ₽</span>
+            </div>
+        </div>
+
+        <div class="filter-block">
+            <p class="filter-title">Наличие</p>
+            <label><input type="checkbox"> В наличии</label>
+            <label><input type="checkbox"> Под заказ</label>
+        </div>
+
+        <div class="filter-block">
+            <p class="filter-title">Категория</p>
+            <label><input type="checkbox"> Для себя</label>
+            <label><input type="checkbox"> Подарочные наборы</label>
+            <label><input type="checkbox"> Опт</label>
+        </div>
+
+        <div class="filter-block">
+            <p class="filter-title">Обжарка</p>
+            <label><input type="checkbox"> Светлая</label>
+            <label><input type="checkbox"> Средняя</label>
+            <label><input type="checkbox"> Тёмная</label>
+        </div>
+    </aside>
+
+    <div class="products">
+
+    <!-- ВСТАВЛЯЙ СЮДА КАРТИНКИ ТОВАРОВ -->
+
+        <div class="product-card">
+            <img src="images/image1.png">
+            <h3>Эфиопия Иргачеффе</h3>
+            <p>Цветочный вкус</p>
+            <div class="product-bottom">
+                <span class="price">1200 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image2.png">
+            <h3>Колумбия Супремо</h3>
+            <p>Шоколадные ноты</p>
+            <div class="product-bottom">
+                <span class="price">950 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/image3.png">
+            <h3>Бразилия Сантос</h3>
+            <p>Ореховый вкус</p>
+            <div class="product-bottom">
+                <span class="price">800 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="">
+            <h3>Кения АА</h3>
+            <p>Ягодный профиль</p>
+            <div class="product-bottom">
+                <span class="price">1400 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="">
+            <h3>Гватемала Антигуа</h3>
+            <p>Пряный вкус</p>
+            <div class="product-bottom">
+                <span class="price">1100 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="">
+            <h3>Индонезия Суматра</h3>
+            <p>Глубокий вкус</p>
+            <div class="product-bottom">
+                <span class="price">1300 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="">
+            <h3>Перу Органик</h3>
+            <p>Мягкий вкус</p>
+            <div class="product-bottom">
+                <span class="price">900 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="">
+            <h3>Коста-Рика Тарразу</h3>
+            <p>Цитрусовый профиль</p>
+            <div class="product-bottom">
+                <span class="price">1250 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="">
+            <h3>Йемен Мокка</h3>
+            <p>Экзотический вкус</p>
+            <div class="product-bottom">
+                <span class="price">1600 ₽</span>
+                <button>В корзину</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contacts">
+    <h2>Контакты</h2>
+    <div class="contact-item">@beanstore</div>
+    <div class="contact-item">+7 (000) 000-00-00</div>
+    <div class="contact-item">+7 (000) 000-00-00</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
